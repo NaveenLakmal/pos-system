@@ -1,0 +1,42 @@
+/* body {
+    
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url("./asset/756399.jpg");
+    
+ 
+} */
+
+#burger-shop-id{
+    /* margin-left: 60px; */
+    color:#D59B9B;
+    font: 600 35px/50px "Lato", sans-serif;
+}
+.navbar-color{
+    background: #514E5E;
+}
+
+.color{
+    color: aqua;
+    /* margin-left: 20px ;
+    margin-right: 30px; */
+}
+
+
+.th-row{
+    font: 600 30px/35px "Lato", sans-serif;
+}
+.td-row{
+    font-size: 1rem;
+    /* font: 600 1rem/35px "Lato", sans-serif; */
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+    .td-row{
+        font-size: 0.3rem;
+    }
+    /* Your styles for devices with a maximum width of 500px */
+  }
