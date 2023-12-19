@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../Style/Style.css">
+</head>
+
+<body class="background-color">
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container-fluid">
+                <a class="navbar-brand " href="./HomePage.html" id="burger-shop-id">
+                    <img src="../asset/shop.png" alt="Logo" width="50" height="54"
+                        class="d-inline-block align-text-top">
+                    Mos Burger
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <!-- <img src="./asset/shop.png" alt="Shop Icon" width="50" height="50">
+                    <div id="burger-shop-id">Burger Shop</div> -->
+
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-4">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./HomePage.html">
+                                <h4 class="color">Home</h4>
+                            </a>
+                        </li>
+
+                        <li class="nav-item me-4">
+                            <a class="nav-link" href="./DashBord.html">
+                                <h4 class="color">Dashbord</h4>
+                            </a>
+                        </li>
+
+
+                        <li class="nav-item me-4">
+                            <a class="nav-link disabled" href="contact-us" aria-disabled="true">
+                                <h4 class="color">Settings</h4>
+                            </a>
+                        </li>
+
+
+
+                        <li class="nav-item ms-5">
+                            <a href="#" class="nav-link nav-icon">
+                                <i class="fa-regular fa-bell ">
+                                    <!-- <span></span> -->
+                                </i>
+
+
+                            </a>
+                        </li>
+
+
+
+
+                        <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                          aria-expanded="false">
+                          courses
+                        </a>
+                        
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="icm-icet-certified-master">iCM - iCET Certified Master </a></li>
+                          <li><a class="dropdown-item" href="icd-icet-certified-developer">iCD - iCET Certified Developer </a>
+                          </li>
+                        </ul>
+                      </li> -->
+
+                        <!-- <li class="nav-item">
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Student life</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">News</a>
+                      </li> -->
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <!-- place navbar here -->
+    </header>
+    <main> <br>
+
+
+        <!-- Tabs navs -->
+        <ul class="nav nav-tabs ms-3" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+
+
+
+                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
+                    type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Burgers</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
+                    type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Submarines </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane"
+                    type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Fries</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane"
+                    type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Pasta</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane"
+                    type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Chicken</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane"
+                    type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Beverages</button>
+            </li>
+
+        </ul>
+
+
+
+        <!-- TAB CONTENT -->
+        <div class="tab-content" id="myTabContent">
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-7 col-md-7 col-sm-12">
+
+                        <div class="tab-pane fade show active " id="home-tab-pane" role="tabpanel"
+                            aria-labelledby="home-tab" tabindex="0">
+
+                            <br>
+                            <form class="d-flex col-4 ms-5" role="search">
+                                <input class="form-control me-2" type="search" placeholder="enter item code"
+                                    aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                            <br>
+
+
+                            <table class="table-header-color table table-striped ms-2">
+                                <tr class="th-row table-danger">
+                                    <th>Code</th>
+                                    <th>Name</th>
+                                    <th>Price (Rs)</th>
+                                    <th>Option</th>
+                                </tr>
+
+                                <tr class="td-row ">
+                                    <td>C0001</td>
+                                    <td>Classic Burger (Large)</td>
+                                    <td> 750.00</td>
+                                    <td><button class="btn btn-outline-success" type="submit">Add</button></td>
+                                </tr>
+                                <tr class="td-row">
+                                    <td>C0002</td>
+                                    <td>Classic Burger (Large)</td>
+                                    <td> 750.00</td>
+                                    <td><button class="btn btn-outline-success" type="submit">Add</button>
+                                <tr class="td-row">
+                                    <td>C0002</td>
+                                    <td>Classic Burger (Large)</td>
+                                    <td> 750.00</td>
+                                    <td><button class="btn btn-outline-success" type="submit">Add</button></td>
+                                </tr>
+                            </table>
+
+
+                        </div>
+
+                        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+
+                            <br>
+                            <form class="d-flex col-4 ms-5" role="search">
+                                <input class="form-control me-2" type="search" placeholder="enter item code"
+                                    aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                            <br>
+
+
+                            <table class="table-header-color table table-striped ms-2">
+                                <tr class="th-row table-danger">
+                                    <th>Code</th>
+                                    <th>Name</th>
+                                    <th>Price (Rs)</th>
+                                    <th>Option</th>
+                                </tr>
+
+                                <tr class="td-row ">
+                                    <td>C0001</td>
+                                    <td>Classic Burger (Large)</td>
+                                    <td> 750.00</td>
+                                    <td><button class="btn btn-outline-success" type="submit">Add</button></td>
+                                </tr>
+                               
+                            </table>
+
+
+                        </div>
+
+
+
+
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-12  right-side-main-div"> <br><br>
+                        <div class="container">
+                            <div class="right-side-main-div-row">
+
+                            </div>
+
+                            <a href="../index.html" class="">
+                                <img src="../asset/person-circle.svg" width="5%" height="5%" alt="bell">Log Out
+                                <span></span>
+
+                            </a>
+
+
+                        </div>
+
+                    </div>
+                    <!-- Tabs content -->
+                </div>
+            </div>
+
+
+    </main>
+    <footer>
+        <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="./app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

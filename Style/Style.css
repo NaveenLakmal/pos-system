@@ -7,6 +7,10 @@
  
 } */
 
+.background-color{
+    background: #514E5E;
+}
+
 #burger-shop-id{
     /* margin-left: 60px; */
     color:#D59B9B;
@@ -23,13 +27,25 @@
 }
 
 
+.right-side-main-div-row{
+    background: #1F1D2B;
+    margin-top:6%;
+    height: 65vh;
+    border-radius: 20px;
+}
+
+
+
+/* .table-header-color{
+    background-color: #574F4D;
+}
 .th-row{
     font: 600 30px/35px "Lato", sans-serif;
 }
 .td-row{
     font-size: 1rem;
     /* font: 600 1rem/35px "Lato", sans-serif; */
-}
+ 
 
 
 
@@ -40,3 +56,15 @@
     }
     /* Your styles for devices with a maximum width of 500px */
   }
+
+  /* right side**********************************/
+  .list-group-item{
+    background-color: #1F1D2B;
+  }
+
+
+
+  #first-li {
+    height: 20vh !important;
+    border-radius: 20px 20px 0px 0px !important; 
+}       
